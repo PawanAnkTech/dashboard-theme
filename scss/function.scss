@@ -1,0 +1,38 @@
+$breakpoints: (
+  'small':  (min-width: 767px),
+  'medium': (min-width: 992px),
+  'large':  (min-width: 1200px)
+) !default;
+
+@mixin respond-to($breakpoints){
+  @if map-has-key($breakpoints, $breakpoint){
+    @media (min-width: map-get($breakpoints, $breakpoint)){
+      @content;
+    }
+  }
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Available breakpoints are: #{map-keys($breakpoints)}.";
+  }
+}
+
+
+@mixin rectangle($width, $height, $box-shadow){
+  width: $width;
+  height: $height;
+  box-shadow: $box-shadow;
+}
+@mixin input($border, $box-shadow){
+  border: $border;
+  box-shadow: $box-shadow;
+}
+@mixin sales($repeat, $position){
+  background-repeat: $repeat;
+  background-position: $position;
+}
+%relative-position{
+  position: relative;
+}
+%absolute-position{
+  position: absolute;
+}
