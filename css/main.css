@@ -277,7 +277,7 @@ span.down-icon {
     border: 5px solid #92c1c1; }
     .performance .card-body .circle-outer .hours {
       display: block;
-      line-height: .8; }
+      line-height: .79; }
     .performance .card-body .circle-outer .circle-inner {
       left: -5px;
       top: -5px;
