@@ -19,9 +19,9 @@ form.form-inline{
     background-color: $background-light-blue;
     height: 30px;
     color: $text-base;
-  }
-  .form-control::placeholder{
-    color: $text-base;
+    &::placeholder{
+      color: $text-base;
+    }
   }
   .btn-search{
     @extend %absolute-position;
