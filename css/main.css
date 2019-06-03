@@ -18,8 +18,8 @@ form.form-inline .form-control {
   background-color: #ebeff2;
   height: 30px;
   color: #858686; }
-form.form-inline .form-control::placeholder {
-  color: #858686; }
+  form.form-inline .form-control::placeholder {
+    color: #858686; }
 form.form-inline .btn-search {
   right: 40px;
   top: 0;
@@ -31,11 +31,8 @@ form.form-inline .form-control {
   border: 0;
   box-shadow: none; }
 form.form-inline .form-inline .btn-search,
-form.form-inline .form-control:hover {
-  border: 0;
-  box-shadow: none; }
 form.form-inline .form-control:focus,
-form.form-inline .form-inline .btn-search {
+form.form-inline .form-inline .btn-search, form.form-inline:hover {
   border: 0;
   box-shadow: none; }
 
@@ -438,6 +435,6 @@ span.down-icon {
   right: 3px; }
 
 .news-feed .list-group-item:hover {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); }
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.16); }
 
 /*# sourceMappingURL=main.css.map */
