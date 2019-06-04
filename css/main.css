@@ -30,9 +30,7 @@ form.form-inline .btn-search,
 form.form-inline .form-control {
   border: 0;
   box-shadow: none; }
-form.form-inline .form-inline .btn-search,
-form.form-inline .form-control:focus,
-form.form-inline .form-inline .btn-search, form.form-inline:hover {
+form.form-inline .form-inline .btn-search, form.form-inline:focus, form.form-inline:hover {
   border: 0;
   box-shadow: none; }
 
@@ -436,5 +434,14 @@ span.down-icon {
 
 .news-feed .list-group-item:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.16); }
+
+canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0; }
 
 /*# sourceMappingURL=main.css.map */
